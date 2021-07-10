@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.modal-90w {
+    width: 85%;
+    max-width: 85%;
+}
+
+.modTitle {
+    font-family: 'Montserrat';
+    color: darkred;
+}
+
+p {
+    font-family: 'Montserrat';
+}

@@ -11,6 +11,7 @@ import reactDom from 'react-dom';
 import React from 'react';
 import { render } from '@testing-library/react';
 import AboutModal from './Components/AboutModal';
+import ContactModal from './Components/ContactModal';
 
 class DisplayApp extends React.Component {
   constructor(props) {
@@ -33,14 +34,13 @@ class DisplayApp extends React.Component {
         <Container fluid>
           <Row className="justify-content-md-center">
             <Col xs lg="2">
-              <Button onClick={() => {this.toggleASwitch()} }>Large modal</Button>
               <AboutModal aboutSwitch={this.state.aboutModal}  />
             </Col>
             <Col md="auto">
               <Title />
               </Col>
             <Col xs lg="2">
-              3 of 3
+              <ContactModal aboutSwitch={this.state.aboutModal}  />
             </Col>
           </Row>
         </Container>
