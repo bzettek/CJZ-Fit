@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 import Title from './Components/Title';
@@ -12,6 +13,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import AboutModal from './Components/AboutModal';
 import ContactModal from './Components/ContactModal';
+import FeatCard from './Components/FeatCard'
+import BottomCard from './Components/BottomCards';
 
 class DisplayApp extends React.Component {
   constructor(props) {
@@ -42,6 +45,17 @@ class DisplayApp extends React.Component {
             <Col xs lg="2">
               <ContactModal aboutSwitch={this.state.aboutModal}  />
             </Col>
+          </Row>
+          <Row className="justify-content-md-center">
+            <Col lg="auto" >
+              <FeatCard />
+            </Col>
+          </Row>
+          <Row lg={10}>
+            <Col>
+              <BottomCard />
+            </Col>
+            
           </Row>
         </Container>
       </div>
