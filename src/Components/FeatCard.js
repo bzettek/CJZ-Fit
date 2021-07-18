@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card'
 import featImage from './featCard.jpg';
 import './FeatCard.css';
 
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 class FeatCard extends React.Component {

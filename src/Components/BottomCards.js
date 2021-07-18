@@ -1,12 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
-import featImage from './featCard.jpg';
+//import featImage from './featCard.jpg';
 import './FeatCard.css';
 import bigWeight from './bigW.jpg';
 import lilWeight from './lilW.jpg';
 
 import CardGroup from 'react-bootstrap/CardGroup';
-import Modal from 'react-bootstrap/Modal';
+//import Modal from 'react-bootstrap/Modal';
 
 class BottomCard extends React.Component {
     constructor(props) {

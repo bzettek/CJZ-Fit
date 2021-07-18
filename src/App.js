@@ -3,14 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
 import Title from './Components/Title';
-import reactDom from 'react-dom';
+//import reactDom from 'react-dom';
 import React from 'react';
-import { render } from '@testing-library/react';
+//import { render } from '@testing-library/react';
 import AboutModal from './Components/AboutModal';
 import ContactModal from './Components/ContactModal';
 import FeatCard from './Components/FeatCard'
