@@ -27,7 +27,7 @@ class FeatCard extends React.Component {
                 <Card.Body>
                     <Card.Title><b>One for All</b></Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">$8 One Time</Card.Subtitle>
-                    <Card.Subtitle className="mb-2 text-muted">3 Months of Workouts</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text-muted">2 Months of Workouts</Card.Subtitle>
                     <Card.Text>
                         Premium workout plan that will allow anyone to make extreme progress at any level.
                     </Card.Text>

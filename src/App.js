@@ -55,7 +55,15 @@ class DisplayApp extends React.Component {
             <Col>
               <BottomCard />
             </Col>
-            
+          </Row>
+          <Row>
+            <Col>
+            <p></p>
+            <Card>
+              <Card.Body>This is some text within a card body.</Card.Body>
+            </Card>
+            <p></p>
+            </Col>
           </Row>
         </Container>
       </div>

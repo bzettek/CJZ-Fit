@@ -29,7 +29,7 @@ class BottomCard extends React.Component {
                         <Card.Body>
                         <Card.Title><b>Beast</b></Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">$20 One Time</Card.Subtitle>
-                        <Card.Subtitle className="mb-2 text-muted">3 Months of Workouts</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">2 Months of Workouts</Card.Subtitle>
                         <Card.Text>
                             Custom tailored plan based on an individuals current progess and future goals.
                         </Card.Text>
@@ -46,7 +46,7 @@ class BottomCard extends React.Component {
                         <Card.Subtitle className="mb-2 text-muted">$50 One Time</Card.Subtitle>
                         <Card.Subtitle className="mb-2 text-muted">3 Months of Workouts</Card.Subtitle>
                         <Card.Text>
-                            Custom plan that includes 24/7 access to form checks, nutritonal advice, and more.
+                            Custom plan that includes access to form checks, nutritonal advice, and more.
                         </Card.Text>
                         <Card.Link href="#" onClick={() => this.setState({showModal: true})}>Buy it Now</Card.Link>
                         </Card.Body>
